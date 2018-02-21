@@ -12,9 +12,11 @@ if($link === false){
 if(isset($_POST['submit'])){
 	$first_name = $_POST['first_name'];
   $last_name  = $_POST['last_name'];
+  $user_name  = $_POST['user_name'];
+  $email  = $_POST['email'];
 
   // attempt insert query execution
-  $sql = "INSERT INTO users (first_name, last_name) VALUES ('$first_name', '$last_name')";
+  $sql = "INSERT INTO users (first_name, last_name, user_name, email) VALUES ('$first_name', '$last_name', '$user_name', '$email')";
   if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
   } else{
