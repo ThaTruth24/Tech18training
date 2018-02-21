@@ -7,7 +7,7 @@
   <body>
     <form action="insert.php" method="post">
       <p>
-        <label for="firstName">Username:</label>
+        <label for="UserName">Username:</label>
         <input type="text" name="user_name" id="userName">
       </p>
 
@@ -20,7 +20,7 @@
         <input type="text" name="last_name" id="lastName">
       </p>
       <p>
-        <label for="lastName">Email:</label>
+        <label for="Email">Email:</label>
         <input type="email" name="email" id="email">
       </p>      
       <input type="submit" value="Submit" name="submit">
