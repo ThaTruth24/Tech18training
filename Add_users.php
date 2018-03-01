@@ -7,11 +7,6 @@
   <body>
     <form action="insert.php" method="post">
       <p>
-        <label for="UserName">Username:</label>
-        <input type="text" name="user_name" id="userName">
-      </p>
-
-      <p>
         <label for="firstName">First Name:</label>
         <input type="text" name="first_name" id="firstName">
       </p>
@@ -20,9 +15,13 @@
         <input type="text" name="last_name" id="lastName">
       </p>
       <p>
-        <label for="Email">Email:</label>
-        <input type="email" name="email" id="email">
-      </p>      
+        <label for="UserName">UserName:</label>
+        <input type="text" name="user_name" id="userName">
+      </p>
+      <p>
+        <label for="Email">Email :</label>
+        <input type="text" name="email" id="email">
+      </p>
       <input type="submit" value="Submit" name="submit">
     </form>
   </body>

@@ -2,11 +2,7 @@
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 
-$link = mysqli_connect("localhost", "root", "", "training");
-// Check connection
-if($link === false){
- die("ERROR: Could not connect. " . mysqli_connect_error());
-}
+include 'init.php';
 
 // Check if submit button is clicked
 if(isset($_POST['submit'])){
